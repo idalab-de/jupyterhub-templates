@@ -1,0 +1,18 @@
+@border-radius-small: 2px;
+@border-radius-base: 2px;
+@border-radius-large: 3px;
+@navbar-height: 40px;
+@grid-float-breakpoint: @screen-xs-min;
+
+@jupyter-orange: #D6D4CE;
+@jupyter-red: #BDBBB6;
+// color blind-friendly alternative to red/green
+// from 5-class RdYlBu via colorbrewer.org
+// eliminate distinction between 'primary' and 'success'
+@brand-primary: #D6D4CE;
+@brand-success: @brand-primary;
+@brand-danger: #BDBBB6;
+
+.btn-jupyter {
+  .button-variant(#fff; @jupyter-orange; @jupyter-red);
+}
